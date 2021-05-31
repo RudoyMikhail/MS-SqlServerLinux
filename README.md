@@ -13,7 +13,9 @@ sudo /opt/mssql/bin/mssql-conf setup</br>
 #You will recieve a prompt to enter a password</br>
 #Make sure to specify a strong password for the SA account (Minimum length 8 characters, including uppercase and lowercase letters, base 10 digits and/or non-alphanumeric symbols)<br>
 #Enter password once again and try to keep in a safe place and don't forget</br> 
-systemctl status mssql-server --no-pager
+systemctl status mssql-server --no-pager</br>
+#If you plan to connect remotely, you might also need to open the SQL Server TCP port (default 1433) on your firewall</br>
+
 
 
 
