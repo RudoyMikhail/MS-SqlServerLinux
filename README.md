@@ -29,6 +29,7 @@ source ~/.bashrc</br>
 
 #How to connect locally? That is how to connect to your PC</br>
 sqlcmd -S localhost -U SA -P '<YourPassword>'#Note that password should be set without single quotes and angle brackets</br>
+If successful, you should get to a sqlcmd command prompt: 1></br>
 
 
 
