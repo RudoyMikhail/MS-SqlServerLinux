@@ -15,6 +15,22 @@ sudo /opt/mssql/bin/mssql-conf setup</br>
 #Enter password once again and try to keep in a safe place and don't forget</br> 
 systemctl status mssql-server --no-pager</br>
 #If you plan to connect remotely, you might also need to open the SQL Server TCP port (default 1433) on your firewall</br>
+#Use the following steps to install the mssql-tools on Ubuntu</br>
+#The following one is a bit generic</br>
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</br>
+#Then specific one for the version you are going to install on your machine</br>
+curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list</br>
+sudo apt-get update</br> 
+sudo apt-get install mssql-tools unixodbc-dev</br>
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile</br>
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc</br>
+source ~/.bashrc</br>
+#It looks like that's it</br>
+
+#How to connect locally? That is how to connect to your PC</br>
+sqlcmd -S localhost -U SA -P '<YourPassword>'#Note that password should be set without single quotes and angle brackets</br>
+
+
 
 
 
