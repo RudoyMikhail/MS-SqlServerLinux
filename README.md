@@ -36,7 +36,15 @@ If successful, you should get to a sqlcmd command prompt: 1></br>
 #Azure data studio is a cross-platform application which can be run on multiple OS including Linux</br>
 
 #https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15</br>
-#.deb is for Ubuntu Linux OS 
+#.deb is for Ubuntu Linux OS</br> 
+#click on .deb to download, then dowble click on .deb file in your Downloads folder and click Install. After that launch Azure Data Studio</br>
+
+#After you have .deb file in your Downloads another option to install via terminal Cr+Alt+T to launch terminal, then</br>
+cd ~</br>
+sudo dpkg -i ./Downloads/azuredatastudio-linux-1.29.0.deb</br>
+#To launch Azure Data Studio from terminal is</br>
+azuredatastudio</br>
+
 
 
 
