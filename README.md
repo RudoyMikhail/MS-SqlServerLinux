@@ -52,7 +52,7 @@ azuredatastudio</brs</br>
 #After you have entered your credentials your connection should look like this: see a picture above</br>
 
 ***
-#Now, after connection is established, it is possible to connect to your database just by clicking on <<default>>(sa)
+#Now, after connection is established, it is possible to connect to your database by not entering password every time</br>
 
 
 
