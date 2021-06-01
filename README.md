@@ -31,6 +31,14 @@ source ~/.bashrc</br>
 sqlcmd -S localhost -U SA -P '<YourPassword>'#Note that password should be set without single quotes and angle brackets</br>
 If successful, you should get to a sqlcmd command prompt: 1></br>
 
+***
+#How to install Azure Data Studio whih is a substitute for SSMS or MS sequal server management studio?</br>
+#Azure data studio is a cross-platform application which can be run on multiple OS including Linux</br>
+
+#https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15</br>
+#.deb is for Ubuntu Linux OS 
+
+
 
 
 
