@@ -48,6 +48,9 @@ azuredatastudio</brs</br>
 ***
 #You can launch Azure Data Studio graphically from the list of your apps</br>
 #After you have launched it you need to set a connection to the SQL Server</br>
+#How can you do that?</br>
+#After you have entered your credentials your connection should look like this: see a picture above</br>
+
 
 
 
